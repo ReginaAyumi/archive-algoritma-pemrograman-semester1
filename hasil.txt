@@ -1,0 +1,2 @@
+Luas segiempat = 0
+0x6ffcf0

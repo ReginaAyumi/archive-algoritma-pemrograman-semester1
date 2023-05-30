@@ -1,0 +1,18 @@
+Algorithm Simple_Calculator
+{This algorithm receive input of two number and an operator. Calculate it and display to the output.}
+DECLARATION
+op1, op2, oprt : integer
+result : float
+DESCRIPTION
+read (op1, oprt, op2)
+switch (oprt)
+	case 1: 
+		result = op1 + op2
+	case 2: 
+		result = op1 - op2
+	case 3: 
+		result = op1 * op2
+	case 4: 
+		result = op1 / op2
+end case
+write (result)
